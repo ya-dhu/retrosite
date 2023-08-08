@@ -1,0 +1,387 @@
+
+body {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+    background-color: #f4e6d2;
+    color: #333;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+header h1 {
+    margin: 0;
+    color: #f55e29; /* Harley Davidson Orange */
+    font-size: 36px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Main Section Styles */
+main {
+    padding-top: 100px;
+}
+
+/* Intro Section Styles */
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8ead5;
+    border: 2px solid #f55e29;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    max-width: 800px;
+    text-align: center;
+    color: #555;
+}
+
+.video-container {
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 315px;
+    border: 2px solid #f55e29;
+    border-radius: 10px;
+}
+
+/* Image Carousel Styles */
+.image-carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin: 30px 0;
+}
+
+.image-carousel img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Product Cards Styles */
+.product-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8ead5;
+    border: 2px solid #f55e29;
+    border-radius: 10px;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #1c1c1c; /* Dark Text Color */
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #f55e29; /* Harley Davidson Orange */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#scrollToTop:hover {
+    background-color: #e244;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #ffdcc2; /* Creamy Peach */
+    border: 2px solid #e98f54; /* Vintage Orange */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    max-width: 800px;
+    text-align: center;
+    color: #5d5d5d; /* Dusty Gray */
+}
+
+/* Product Page Styles */
+.product-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #f8ead5; /* Retro Beige */
+    border: 2px solid #e98f54; /* Vintage Orange */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Contact Page Styles */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #ffdcc2; /* Creamy Peach */
+    border: 2px solid #e98f54; /* Vintage Orange */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    max-width: 400px;
+    color: #5d5d5d; /* Dusty Gray */
+}
+
+.contact-form {
+    max-width: 400px;
+    margin-top: 30px;
+    color: #5d5d5d; /* Dusty Gray */
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e98f54; /* Vintage Orange */
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form button {
+    background-color: #e98f54; /* Vintage Orange */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #cf7147; /* Darker Orange on Hover */
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+.product-card strong {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+label {
+    font-size: 16px;
+}
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #ffdcc2; /* Creamy Peach */
+    border: 2px solid #e98f54; /* Vintage Orange */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    max-width: 800px;
+    text-align: center;
+    color: #5d5d5d; /* Dusty Gray */
+}
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-images img {
+    max-width: 100%;
+    border: 4px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.about-images img:last-child {
+    margin-bottom: 0;
+}
+
+.about-images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 500px; /* Set a max width for the form */
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    text-align: left; /* Align the form elements to the left */
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%; /* Make form elements take full width */
+}

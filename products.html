@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta information -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vintage Bikes</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <!-- Website header with logo and navigation -->
+  <h1>Kriz's Garage</h1>
+  <nav>
+    <ul>
+      <!-- Navigation links -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <!-- Product section -->
+  <section class="product-section">
+
+    <!-- Product details card -->
+    <div class="product-card">
+      <!-- Product image -->
+      <img src="Harley.jpeg" alt="Product 1">
+      <!-- Product title -->
+      <h3>1990 Harley Davidson Fatboy</h3>
+      <!-- Product description -->
+      <p>The 1990 Harley Davidson Fatboy is a classic cruiser motorcycle that has captured the hearts of enthusiasts for decades. With its distinctive design and powerful performance, this bike is a true icon of the road.</p>
+      <!-- Specifications -->
+      <p><strong>Specifications:</strong></p>
+      <ul>
+        <li>Engine: 1340cc V-Twin</li>
+        <li>Transmission: 5-speed manual</li>
+        <li>Front Suspension: Telescopic fork</li>
+        <li>Rear Suspension: Twin shocks</li>
+        <li>Brakes: Dual disc front, single disc rear</li>
+        <li>Weight: Approximately 695 lbs (315 kg)</li>
+      </ul>
+      <!-- Price -->
+      <p>Price: $9999.99</p>
+
+      <!-- Customization options form -->
+      <p><strong>Customization Options:</strong></p>
+      <form action="checkout.html">
+        <!-- Color selection -->
+        <label for="color">Select Color:</label>
+        <select id="color" name="color">
+          <option value="black">Black</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+        </select>
+        <br>
+        <!-- Modifications checkboxes -->
+        <label for="Modifications">Select Modifications:</label><br>
+        <input type="checkbox" id="exhaust" name="modifications" value="exhaust">
+        <label for="exhaust">Upgraded Exhaust</label><br>
+        <input type="checkbox" id="seat" name="modifications" value="seat">
+        <label for="seat">Custom Seat</label><br>
+        <input type="checkbox" id="handlebars" name="modifications" value="handlebars">
+        <label for="handlebars">Custom Handlebars</label><br>
+
+        <br>
+        <!-- Buy button -->
+        <button type="submit">Buy Online</button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer>
+  <!-- Copyright information -->
+  <p>&copy; 2023 Kriz's Garage</p>
+</footer>
+</body>
+</html>

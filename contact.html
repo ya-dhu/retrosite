@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta information -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vintage Bikes</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <!-- Website header with logo and navigation -->
+  <h1>Kriz's Garage</h1>
+  <nav>
+    <ul>
+      <!-- Navigation links -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <!-- Contact section -->
+  <section class="contact-section">
+    <!-- Contact information -->
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>Address: 123 Street, ON, Canada</p>
+      <p>Email: info@Krizgarage.com</p>
+      <p>Phone: +1 (123) 456-7890</p>
+    </div>
+    <!-- Contact form -->
+    <div class="contact-form">
+      <h2>Get in Touch</h2>
+      <form action="submit_form.php" method="post">
+        <!-- Name input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Phone input -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <!-- Message textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer>
+  <!-- Copyright information -->
+  <p>&copy; 2023 Kriz's Garage</p>
+</footer>
+</body>
+</html>
